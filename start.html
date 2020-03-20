@@ -1,0 +1,159 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-position:center;
+                background-attachment:fixed;
+				background-size: cover;
+			top: -;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.square {
+  height: 8px;
+  width: 60px;
+  margin:0 auto;
+  border-radius:13px;
+  
+  background-color: #555;
+}
+*{
+margin:0px;
+padding:0px;}
+.s
+{
+
+
+	border:2px solid black;
+		font-weight:bold;
+	outline:none;
+	height: 50px;
+	width:150px;
+	color:black;
+	font-size:14px;
+	background: white;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+
+button:hover
+{
+	background: white;
+	
+	color: black;
+}
+
+.l
+{
+	border:2px solid black;
+		font-weight:bold;
+		
+		margin-left:19px;
+	outline:none;
+	height: 50px;
+	width:150px;
+	color:white;
+	font-size:14px;
+	background: black;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+
+button:hover
+{
+	background: white;
+	
+	color: black;
+}
+
+
+.card {
+	box-sizing:border-box;
+width:100%;
+padding-bottom:20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  border:2px;
+  border-color:white;
+  border-top-left-radius:25px;
+border-top-right-radius:25px;
+position: absolute; 
+                bottom: 0px; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.card{
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  0%   {
+  margin-bottom:-1000px;}
+ 
+  100% {
+  position: absolute; 
+                bottom: 0px; 
+  
+  }
+  
+
+}
+
+.m{
+border:2px solid black;
+		font-weight:bold;
+		
+	margin-left:15px;
+	outline:none;
+	height: 50px;
+	width:91%;
+	
+	margin-top:2%;
+	color:white;
+	font-size:14px;
+	background: black;
+	cursor:pointer;
+	border-radius:10px;
+}
+.cen{
+
+display: flex;
+  justify-content: center;
+margin-bottom:20px;
+}
+</style>
+
+</head>
+<body  style="background-image:url(startimg.jpg)">
+
+<div class="card"  style="background-color:white;">
+
+  <div class="container" >
+  <br>
+<div class="square"></div>
+  <br>
+  <br>
+<div class="cen">
+<button class="s" onclick="app2.showToast1();">SIGN UP</button>
+<button class="l" onclick="app.showToast();">LOGIN</button><br><br>
+</div>
+<button class="m" onclick="app3.showToast2();">EXPLORE CARS</button>
+<button class="m" onclick="app4.showToast3();">COMPARE CARS</button>
+
+	<br>
+  </div>
+  
+</div>	
+</div>
+</body>
+
+</html>
